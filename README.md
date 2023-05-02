@@ -3,3 +3,5 @@
 - 右键菜单 remove-console
 - 或者快捷键 command+shift+l (mac)
 -  "ctrl+shift+l" (windows)
+- 目前仅支持vue2 ,vue3 js ,ts
+![](read.gif)

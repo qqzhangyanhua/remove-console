@@ -3,7 +3,7 @@
   "displayName": "zyh-remove-console",
   "description": "",
   "publisher": "zhangyanhua",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "engines": {
     "vscode": "^1.76.0"
   },
@@ -22,6 +22,14 @@
         "title": "Remove Console.log"
       }
     ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "formatCheckCode.removeConsoleLog",
+          "group": "navigation"
+        }
+      ]
+    },
     "keybindings": [
       {
         "command": "formatCheckCode.removeConsoleLog",
